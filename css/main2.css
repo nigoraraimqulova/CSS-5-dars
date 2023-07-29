@@ -1,0 +1,78 @@
+.class{
+    background-color: midnightblue;
+    width: 1200px;
+    height: 1000px;
+}
+.wrap{
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn1{
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: orangered;
+    background-color: midnightblue;
+    border-radius: 5px;
+    border: 1.5px solid orangered;
+    text-align: center;
+}
+.btn2{
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    border: 1.5px solid lightseagreen;
+    text-align: center;
+}
+.btn3{
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrap2{
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn4{
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn5{
+    border: 1.5px solid rebeccapurple;
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: rebeccapurple;
+    background-color: midnightblue;
+    text-align: center;
+}
+.btn6{
+    border: 1.5px solid mediumseagreen;
+    width: 80px;
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: mediumseagreen;
+    background-color: midnightblue;
+    border-radius: 120px;
+    text-align: center;
+}

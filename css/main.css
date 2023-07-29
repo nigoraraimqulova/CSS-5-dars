@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    /*src: url("../fonts/Poppins/poppins-v5-latin_devanagari-regular.woff") format("woff"),
+    url("../fonts/Poppins/poppins-v5-latin_devanagari-regular.woff2") format("woff2");*/
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px!important;
+    font-weight: 500;
+   /* font-style: italic;*/
+}
+
+body{
+    background-color: #c8e9f0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.navbar-item a{
+    color: gray;
+    text-decoration: none;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.flex-item{
+   /*border: 5px solid red;*/
+    padding: 10px 15px;
+}
+.flex-item p{
+    background-color: white;
+    padding: 16px;
+}
+.navbar-item:hover{
+    background-color: #f1f1f1;
+}
+.navbar-item:hover a{
+    color: #34c9cb;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: #34c9cb;
+    border-bottom: 8px solid #248f91;
+    border-radius: 8px;
+    transition: all 5s ease;
+}
+.btn:active{
+    margin-top: 4px;
+    border-bottom-width: 4px;
+}
+.btn:focus {
+    margin-top: 4px;
+    border-bottom-width: 4px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 250px;
+}
+.sticky{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #248f91;
+    border-radius: 10%;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    line-height: 45px;
+    background-image: url("../rasm/down-arrow.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+.flex-item{
+    position: relative;
+    z-index: -1;
+}
+.badge{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.badge2{
+    background-color: grey;
+    color: white;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.badge3{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.badge4{
+    background-color: grey;
+    color: white;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.badge5{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.badge6{
+    background-color: grey;
+    color: white;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.navbar-item{
+    position: relative;
+    padding-right: 25px;
+}
+.navbar-item:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../rasm/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    /*vertical-align: middle;*/
+    /*margin-left: 5px;*/
+    position: absolute;
+    top: 40%;
+    right: 5px;
+}
+
+.drop-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item2:hover .drop-menu{
+    display: block;
+}
+
+.drop-menu2{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu2{
+    display: block;
+}
+
+.drop-menu3{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu3{
+    display: block;
+}
+
+.drop-menu4{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu4{
+    display: block;
+}
+
+.drop-menu5{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu5{
+    display: block;
+}
